@@ -1,0 +1,347 @@
+*{
+    font-family: 'Signika Negative', sans-serif;
+    margin: 0;
+    padding: 0;   
+}
+body{
+    overflow-x: hidden;
+    /* background-image:radial-gradient( #276c92,#D8E3E7); */
+    /* background-image: linear-gradient(to bottom right,#3e8ea0,#FFF5E4,#C8FFD4); */
+    background-color: #daf3f8;
+    /* color: white; */
+}
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+.home{
+    height: 40px;
+    width: 40px;
+}
+.x{
+    font-size: 1.4rem;
+    color: white;
+    text-decoration: double;
+    opacity: 0.8;
+     
+}
+.x:hover{
+    font-size: 1.2rem;
+    transition: 0.31s;
+    border: solid;
+    border-top: 0px;
+    border-left:0px ;
+    border-right: 0px;    
+    opacity: 1;
+    color: #204051;
+    
+    
+}
+.heading{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3px;
+}
+.navbar{
+    height: 3rem;
+    width: 100vw;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 10px;
+    /* background-image: linear-gradient( to right, #3e8ea0,#D7EAEA,#3e8ea0,#D7EAEA); */
+    background-color: #3e8ea0;
+}
+.nav{
+     display: flex;
+     flex-wrap: wrap;
+     list-style: none;
+     width: 100vw;
+
+}
+li{
+    padding-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.rightnav{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    position:relative;
+    top: -40px;
+    left: 950px;
+}
+.icon{
+    height: 1.7rem;
+    width: 1.7rem; 
+    flex-wrap: wrap;
+    border-radius: 50%;
+    padding: 0px;
+    border: 1px solid white;
+}
+.text{
+    margin-top: 2px;
+    margin-left: 70px;
+    
+}
+.adjust{
+    display: flex;
+    flex-wrap: wrap;
+}
+.head{
+    margin: 20px;
+    position: relative;
+    left: 10px;
+}
+.welcome{
+    position: relative;
+    left: -300px;
+    top: -10px;
+}
+.xmas{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 30px;
+    }
+.btnx{
+    border: none;
+    width: 80%;
+    margin-left: 15px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    background-color: #54BAB9;
+    color: white;
+    border: 1.5px solid white;
+}
+.btnx:hover{
+    background-color: #FAFAF6;
+    color:black ;
+    background-image: linear-gradient(45deg,#D7EAEA,#54BAB9);;
+    /* border-top: 1px solid black; */
+    border: 2px solid white;
+    /* border: 5px solid rgba(58, 64, 66, 0.747); */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 1s;
+}
+
+.list{
+       padding: 1rem;
+       margin: 10px;
+       font-size: 2rem;
+   }
+.list:hover{
+       color: black;
+       margin: 1rem;
+       padding: 0.1rem;
+   }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   }
+.display{
+    height: 10rem;
+    width: 10rem;
+    background-image: linear-gradient(to bottom right,#D7EAEA, #3e8ea0,#D7EAEA);
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+    
+}
+.btn{
+    height: 3rem;
+    width: 7rem;
+    /* color: white; */
+    /* background-color: blue; */
+    border-radius: 10px;
+    margin: 1rem;
+}
+.btn:hover{
+        background-color: #ABD9FF;
+}
+.hero{
+    position: relative;
+    left: 5rem;
+    top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    top: 25px;
+    left: 100px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.cloud{
+    position: relative; 
+    left: 15px;
+    top: 15px;
+    background-color: white;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    border: 10px solid #276c92;
+    box-shadow: rgba(48, 107, 158, 0.25) 20px 50px 100px -20px, rgba(95, 96, 96, 0.7) 20px 30px 60px -30px, rgba(10, 37, 64, 0.9) 0px -2px 6px 0px inset;
+}
+
+.herotext{
+    height: 15rem;
+    width: 50%;
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    /* top: -400px;
+    left: 600px; */
+    
+}
+
+
+@media (max-width: 480px){
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+.x{
+    font-size: 1rem;
+    margin-left: -25px;
+}
+.rightnav{
+    top: -40px;
+    left: 230px;
+}
+.li{
+    padding-right: 0px;
+    margin-left: 0px;
+}
+.icon{
+    margin-right: -30px;
+}
+.welcome{
+    position: relative;
+    left: -50px;
+    top: -10px;
+}
+.herotext{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero{
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+    /* display: inline; */
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.xyz{
+    position: relative;
+    top: 150px;
+    display: inline;
+
+}
+.text{
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 10px;
+    top: 100px;
+
+}
+.head{
+    margin-top: 30px;
+}
+.cloud{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 15px;
+    top: -5px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}   
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.display{
+    height: 8rem;
+    width: 8rem;
+    margin: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    
+} 
+.xmas{
+    font-size: 1.5rem;
+    margin: 5px;
+    padding: 10px;
+}
+.btnx{
+    height: 35px;
+    width: 70%;
+    margin-top: 10px;
+}
+}
+
+@media (min-width:481px) and (max-width:810px){
+    
+    .rightnav{
+        top: -40px;
+        left: 500px;
+    }    
+    .icon{
+        height: 20px;
+        width: 20px;
+    }
+    .welcome{
+        position: relative;
+        left: -200px;
+        top: -10px;
+    }
+    .logo{
+          height: 250px;
+          width: 250px;
+          position: relative;
+          left:40px;
+          top: 20px;
+    }
+    .cloud{
+        height: 200px;
+        width: 200px;
+        position: relative;
+        left: -35px;
+        top: -5px;
+        margin-left:50px ;
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }  
+}
